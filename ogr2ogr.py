@@ -1,1 +1,1 @@
-__author__ = 'lzeno'
+$ ogr2ogr -f "ESRI Shapefile" junkmob.shp -select pin -where "minor = 'HYDR'" parcel_address.shp
